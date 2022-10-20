@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="currency_amount">Amount</string>
+    <string name="currency_select">Select the currency</string>
+    <string name="ok">OK</string>
+    <string name="retry">Retry</string>
+    <string name="close">Close</string>
+    <string name="empty_list">Select a currency and enter the desired amount to show it converted to other currencies.</string>
+
+    <string name="error_title">Error</string>
+    <string name="error_message">An unexpected error has occurred, please contact customer support</string>
+    <string name="error_message_retry">An unexpected error has occurred, would you like to retry?</string>
+</resources>
