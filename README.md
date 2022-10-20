@@ -39,5 +39,4 @@ Clone the repository:
 
 ```
 git clone https://github.com/nicolacaferra/architecture_sample_currency_converter.git
-
 ```
