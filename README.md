@@ -40,3 +40,6 @@ Clone the repository:
 ```
 git clone https://github.com/nicolacaferra/architecture_sample_currency_converter.git
 ```
+
+## The app 
+![App sample](https://i.imgur.com/aUlDK28.gif)
