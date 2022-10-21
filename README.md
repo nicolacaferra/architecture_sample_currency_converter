@@ -42,4 +42,4 @@ git clone https://github.com/nicolacaferra/architecture_sample_currency_converte
 ```
 
 ## The app 
-![App sample](https://i.imgur.com/aUlDK28.gif)
+![App sample](https://nicolacaferra.dev/assets/images/2022/app_in_action.gif)

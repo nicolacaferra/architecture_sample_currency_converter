@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.paypay.currency.data.CurrencyValue
 import com.paypay.currency.data.entities.Currency
-import com.paypay.currency.usecases.CurrencyUseCase
+import com.paypay.currency.usecases.CurrencyUseCases
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -17,7 +17,7 @@ import javax.inject.Inject
  * view model class used by [com.paypay.currency.ui.CurrenciesFragment]
  */
 @HiltViewModel
-class CurrenciesViewModel @Inject internal constructor(private val useCase: CurrencyUseCase) :
+class CurrenciesViewModel @Inject internal constructor(private val useCase: CurrencyUseCases) :
     ViewModel() {
 
     //immutable to observe in the view

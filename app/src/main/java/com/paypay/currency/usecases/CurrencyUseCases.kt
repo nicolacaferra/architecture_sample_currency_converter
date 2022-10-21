@@ -17,7 +17,7 @@ import javax.inject.Singleton
  * use case class used to handle application logic
  */
 @Singleton
-class CurrencyUseCase @Inject constructor(
+class CurrencyUseCases @Inject constructor(
     private val httpRepository: HttpCurrencyRepository,
     private val localRepository: LocalCurrencyRepository
 ) {

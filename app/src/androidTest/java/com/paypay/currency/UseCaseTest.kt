@@ -9,7 +9,7 @@ import com.paypay.currency.data.entities.Currency
 import com.paypay.currency.data.exceptions.GenericException
 import com.paypay.currency.data.repositories.HttpCurrencyRepository
 import com.paypay.currency.data.repositories.LocalCurrencyRepository
-import com.paypay.currency.usecases.CurrencyUseCase
+import com.paypay.currency.usecases.CurrencyUseCases
 import org.junit.Assert.*
 import org.junit.Before
 import org.junit.Test
@@ -23,7 +23,7 @@ import org.junit.runner.RunWith
 @RunWith(AndroidJUnit4::class)
 class UseCaseTest {
 
-    private lateinit var useCase: CurrencyUseCase
+    private lateinit var useCase: CurrencyUseCases
 
     @Before
     fun initUseCase() {
@@ -37,7 +37,7 @@ class UseCaseTest {
         val localRepository = LocalCurrencyRepository(exchangeRateDao, currencyDao)
         val httpRepository = HttpCurrencyRepository()
 
-        useCase = CurrencyUseCase(httpRepository, localRepository)
+        useCase = CurrencyUseCases(httpRepository, localRepository)
     }
 
 
